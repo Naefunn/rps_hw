@@ -7,7 +7,7 @@ class Game():
         winner = "player 2"
         
         if player_1 == player_2:
-            winner = "tie"
+            winner = "no one"
         if player_1 == "rock" and player_2 == "scissors":
             winner = "player 1"
         if player_1 == "scissors" and player_2 == "paper":
